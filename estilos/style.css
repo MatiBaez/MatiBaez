@@ -236,23 +236,23 @@ h2{
   }
 
 
-@media (max-width: 480px){
+@media (min-width: 760px){
     body {
         background-color: rgb(52, 128, 77);
         text-transform: lowercase;
-        font-size: 10px;
+        font-size: 30px;
     }
 }
 
-@media (min-width: 481px) and (max-width: 1023px) {
+@media (min-width: 1024px) and (max-width: 710px) {
     body {
         text-transform: lowercase;
-        font-size: 10px;
+        font-size: 30px;
 
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
     body {
         background-color: coral;
         text-transform: uppercase;
