@@ -19,8 +19,7 @@
     
 }
 
-    
-   
+
     
 .imagenInicio{
     width: 250px;
@@ -45,12 +44,15 @@
 
 .imagenesSecciones{
     height: 150px;
-    transition:all .5s ease-in-out;
     -webkit-transform: rotate(360deg);transform: rotate(360deg);
     -webkit-transform:rotateZ (-30deg);
     -ms-transform:rotateZ (-30deg);
-    transform:rotateZ (-30deg);
+    transform: translateY(-3%);
+    cursor: pointer;
+    transition: all 400ms ease;
 }
+
+
 
 .imagenesProductos {
     width: 400px;
@@ -90,6 +92,7 @@ header{
     flex-direction: column;
     color: white;
     transition:all .5s ease-in-out;
+    
     
 }
 
@@ -163,7 +166,7 @@ h2{
     .padre-flex {
         display: flex;
         justify-content: center;
-        transition:all .4s ease-in-out;
+        
         
         
     }
