@@ -226,6 +226,8 @@ h2{
   .box-3 {
     grid-area: box3;
     width: 100px;
+    background-color: rgb(255, 255, 255);
+    
   }
   
   .box-4 {
