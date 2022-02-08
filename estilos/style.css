@@ -33,6 +33,7 @@
     animation-delay: 1s;
     position: relative;
 }
+
 @keyframes animacionInicio {
     0% {background: #aaa; left: 0; top: 0px;}
     25% {background: rgb(56, 189, 171);left: 200px;top: 0px;}
@@ -88,8 +89,6 @@
     display: flex;
     align-items: center;
     width: 400px;
-    
-   
     
 }
 
@@ -194,11 +193,10 @@ h2{
         font-weight: bold;
     }
 
+
     .padre-flex {
         display: flex;
         justify-content: center;
-        
-        
         
     }
 
