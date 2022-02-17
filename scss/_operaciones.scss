@@ -1,0 +1,15 @@
+@import "_variables";
+
+main {
+    width: $ancho * 2;
+.cajaUno {
+    background-color: $colorprimario;
+    width: $ancho;
+}
+.cajaDos {
+    width: $ancho/2;
+}
+.cajaTres {
+    width: ($ancho/2) + 60;
+}
+}

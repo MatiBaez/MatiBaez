@@ -1,0 +1,20 @@
+@import "_variables";
+
+$vista: 960px;
+
+body {
+    @if $vista == $ancho {
+        @media only screen and (min-width: 1024px){
+            h1 {font-size: $h1Desktop;}
+            h3{font-size: 35px;}
+            p{font-size: $parrafoDesktop;}
+        }
+    }@else if $vista == $ancho {
+        @media only screen and (min-width: 767px){
+            h1 {font-size: $h1Mobile;}
+            h3{font-size: 25px;}
+            p{font-size: $parrafoDesktop;}
+
+}
+}
+}
