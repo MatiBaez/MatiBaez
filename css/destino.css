@@ -17,6 +17,30 @@ main {
     font-size: 1.25rem; } }
 
 body {
+  background-image: url();
+  background-color: aqua; }
+
+div {
+  background-image: url();
+  background-color: aqua; }
+
+aside {
+  background-image: url();
+  background-color: aqua; }
+
+section {
+  background-image: url();
+  background-color: aqua; }
+
+article {
+  background-image: url();
+  background-color: aqua; }
+
+footer {
+  background-image: url();
+  background-color: aqua; }
+
+body {
   background-color: black; }
 
 h1 {

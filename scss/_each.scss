@@ -1,0 +1,9 @@
+
+
+@each $secciones in body, div, aside, section, article, footer {
+    #{$secciones} {
+        background-image: url();
+        background-color: aqua;
+    }
+}
+    

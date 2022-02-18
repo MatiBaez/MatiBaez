@@ -1,0 +1,19 @@
+@mixin caja ($fondo) {
+    background-color: $fondo;
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.caja1 {
+    @include caja (#111);
+}
+
+.caja2 {
+    @include caja (#222); 
+}
+
+.caja3 {
+    @include caja (#333);
+}
