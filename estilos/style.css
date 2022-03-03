@@ -157,9 +157,15 @@ h2{
 
 .video {
     text-align: center;
+    
 }
 
     body{
+        padding-bottom: 3em;
+        min-height: 100vh;
+        position: relative;
+        flex-direction: column;
+        min-height: 100vh;
         background-image: url("http://2.bp.blogspot.com/-6zSzvMvvPDY/UyitboZaiVI/AAAAAAAAFLE/KXWocb0YVro/s1600/fondo%25252Bminimalista%25252Bnegro,%25252Bminimalist%25252Bbackground,%25252Bfondo%25252Bsitio%25252Bweb%25252Bminimalista,%25252Bfondo%25252Bnegro%25252Bweb.jpg")
         
     }
@@ -269,6 +275,34 @@ h2{
     
   }
 
+  .pfooter {
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding: 1em 0;
+    margin-top: auto;
+}
+
+    .instagramlila {
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: inline-block;
+
+}
+
+    .wasap {
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: inline-block;
+    }
+
+
 
 @media (min-width: 760px){
     body {
@@ -294,6 +328,12 @@ h2{
     }
 
 }
+
+
+
+
+
+
 
     
 
