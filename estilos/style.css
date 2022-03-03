@@ -22,16 +22,13 @@
 
     
 .imagenInicio{
-    width: 250px;
-    border-radius: 9px;
-    box-shadow: 5px 15px 25px;
-    display: flex;
-    justify-content: center;
-    -webkit-transform: rotate(360deg);transform: rotate(360deg);
-    animation-name: animacionInicio;
-    animation-duration: 4s;
-    animation-delay: 1s;
-    position: relative;
+    position: absolute;
+    left: 43%;
+    top: 0%;
+    border-bottom: #d13131;
+    border-radius: 30%;
+    
+    
 }
 
 @keyframes animacionInicio {
@@ -88,7 +85,7 @@
 .imagenesProductos {
     display: flex;
     align-items: center;
-    width: 400px;
+    width: 600px;
     
 }
 
@@ -98,7 +95,7 @@
     color: rgb(255, 255, 255);
     font-size: 18px;
     border-radius: 3px;
-    background-color: rgb(98, 97, 145);
+    background-color: rgb(223, 39, 69);
     margin-left: 5px;
     transition:all .5s ease-in-out;
     
@@ -225,55 +222,7 @@ h2{
     }
 
 
-.container{
-    display: grid;
-    grid-template-columns: 200px auto 200px 300px;
-    grid-template-rows: repeat(3, 100px);
-    background-color: rgb(127, 127, 179);
-    grid-gap: 1rem;
-    grid-template-areas:
-    "box1 box1 box1"
-    "box2 box5 box4 "
-    ". box5 .";
-}
 
-.box-1,
-.box-2,
-.box-3,
-.box-4,
-.box-5 {
-    background-color: rgb(241, 228, 229);
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    
-}
-
-.box-1 {
-    grid-area: box1;
-    
-  }
-  
-  .box-2 {
-    grid-area: box2;
-    
-  }
-  
-  .box-3 {
-    grid-area: box3;
-    width: 100px;
-    background-color: rgb(255, 255, 255);
-    
-  }
-  
-  .box-4 {
-    grid-area: box4;
-    
-  }
-  
-  .box-5 {
-    grid-area: box5;
-    
-  }
 
   .pfooter {
     font-size: 12px;
@@ -291,6 +240,10 @@ h2{
         align-items: center;
         justify-content: center;
         display: inline-block;
+        position: absolute;
+        left: 80%;
+        top: 2%;
+        
 
 }
 
@@ -300,7 +253,101 @@ h2{
         align-items: center;
         justify-content: center;
         display: inline-block;
+        position: absolute;
+        left: 75%;
+        top: 2%;
     }
+
+    .formulario {
+        text-align: center;
+    }
+
+    .botonComprar {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        margin: -25px 0 0 -25px;
+        border: 1px solid #d82a41; 
+        padding: 10px; 
+        background-color: #d13131; 
+        color: #ffffff; 
+        text-decoration: none; 
+        text-transform: uppercase; 
+        font-family: 'Helvetica', sans-serif; 
+        border-radius: 30px; 
+        }
+
+        .novedades {
+            text-align: center;
+            background-color: #d13131;
+            border-radius: 40%;
+            top: 10%;
+            height: auto;
+        }
+
+        .imagenJagger {
+            position: absolute;
+            top: 17%;
+            left: 5%;
+            border-radius: 3%;
+        }
+
+        .imagenCabernet {
+            position: relative;
+            top: 45%;
+            left: 40%;
+            border-radius: 3%;
+            
+        }
+
+        .botonComprarInicioJagger {
+        position: absolute;
+        top: 43%;
+        left: 18%;
+        margin: -25px 0 0 -25px;
+        border: 1px solid #d82a41; 
+        padding: 10px; 
+        background-color: #d13131; 
+        color: #ffffff; 
+        text-decoration: none; 
+        text-transform: uppercase; 
+        font-family: 'Helvetica', sans-serif; 
+        border-radius: 30px;
+
+        }
+
+        .botonComprarInicioCabernet {
+            position: absolute;
+        top: 67%;
+        left: 67%;
+        margin: -25px 0 0 -25px;
+        border: 1px solid #d82a41; 
+        padding: 10px; 
+        background-color: #d13131; 
+        color: #ffffff; 
+        text-decoration: none; 
+        text-transform: uppercase; 
+        font-family: 'Helvetica', sans-serif; 
+        border-radius: 30px;
+
+        }
+
+        .textoJagger {
+            position: absolute;
+            top: 44%;
+            right: 62%;
+            border-radius: 10%;
+            border-bottom: #d13131;
+        }
+
+        .textoCabernet {
+            position: absolute;
+            border-radius: 5%;
+            top: 68%;
+            left: 40%;
+            
+            
+        }
 
 
 
