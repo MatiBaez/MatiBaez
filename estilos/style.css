@@ -94,10 +94,10 @@
     text-transform: uppercase;
     color: rgb(255, 255, 255);
     font-size: 18px;
-    border-radius: 3px;
+    border-radius: 5px;
     background-color: rgb(223, 39, 69);
-    margin-left: 5px;
-    transition:all .5s ease-in-out;
+    margin-left: 1px;
+    transition:all .2s ease-in-out;
     
     
 }
@@ -277,6 +277,12 @@ h2{
         border-radius: 30px; 
         }
 
+        .botonComprar:hover {
+            background: #000000;
+            color: #fff !important;
+            text-transform: uppercase;
+        }
+
         .novedades {
             text-align: center;
             background-color: #d13131;
@@ -313,8 +319,17 @@ h2{
         text-transform: uppercase; 
         font-family: 'Helvetica', sans-serif; 
         border-radius: 30px;
+        border-color: #000000;
+        
 
         }
+
+        .botonComprarInicioJagger:hover {
+            background: #000000;
+            color: #fff !important;
+            transition:all .2s ease-in-out;
+            text-transform: uppercase;
+          }
 
         .botonComprarInicioCabernet {
             position: absolute;
@@ -326,11 +341,22 @@ h2{
         background-color: #d13131; 
         color: #ffffff; 
         text-decoration: none; 
-        text-transform: uppercase; 
+        border: 2px solid;
+        border-color: #000000;
+        transition: all 0.5s ease; 
         font-family: 'Helvetica', sans-serif; 
         border-radius: 30px;
+        text-transform: uppercase;
+        margin-left: 1px;
 
         }
+
+        .botonComprarInicioCabernet:hover {
+            background: #000000;
+            color: #fff !important;
+            transition:all .2s ease-in-out;
+            text-transform: uppercase;
+          }
 
         .textoJagger {
             position: absolute;
@@ -347,7 +373,7 @@ h2{
             left: 40%;
             
             
-        }
+            }
 
 
 
