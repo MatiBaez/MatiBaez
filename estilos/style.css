@@ -483,15 +483,6 @@ h2{
                 position: absolute;
             }
 
-            .fotosSucursales {
-                width: 40%;
-                border-radius: 15%;
-                left: 44%;
-                top: 30%;
-                position: relative;
-                
-             }
-
             
 
             
@@ -499,9 +490,9 @@ h2{
 
           
 
-@media (min-width: 760px){
+@media (min-width: 600px){
     body {
-        background-color: rgb(52, 128, 77);
+        background-color: rgb(255, 255, 255);
         text-transform: lowercase;
         font-size: 30px;
     }
@@ -517,7 +508,7 @@ h2{
 
 @media (min-width: 1200px) {
     body {
-        background-color: coral;
+        background-color: rgb(255, 255, 255);
         text-transform: uppercase;
         font-size: 15px;
     }
