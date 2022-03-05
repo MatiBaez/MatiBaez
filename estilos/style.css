@@ -219,7 +219,7 @@ h2{
 }
 
     .instagramlila {
-        height: 70px;
+        height: 60px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -232,7 +232,7 @@ h2{
 }
 
     .wasap {
-        height: 70px;
+        height: 60px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -240,6 +240,20 @@ h2{
         position: absolute;
         left: 75%;
         top: 2%;
+    }
+
+    .wasap:hover {
+        background-color: #ffffff;
+        border-radius: 50%;
+        border-bottom: #ffffff;
+
+    }
+
+    .instagramlila:hover {
+        background-color: #ffffff;
+        border-radius: 50%;
+        border-bottom: #ffffff;
+
     }
 
     .formulario {
@@ -308,8 +322,8 @@ h2{
             color: #ffffff; 
             text-decoration: none; 
             border: 2px solid;
-            border-color: #000000;
-            transition: all 0.5s ease; 
+            border-color: #ffffff;
+            transition: all 0.1s ease; 
             font-family: 'Helvetica', sans-serif; 
             border-radius: 30px;
             text-transform: uppercase;
@@ -337,7 +351,7 @@ h2{
         text-transform: uppercase; 
         font-family: 'Helvetica', sans-serif; 
         border-radius: 30px;
-        border-color: #000000;
+        border-color: #ffffff;
         
 
         }
@@ -360,8 +374,8 @@ h2{
         color: #ffffff; 
         text-decoration: none; 
         border: 2px solid;
-        border-color: #000000;
-        transition: all 0.5s ease; 
+        border-color: #ffffff;
+        transition: all 0.1s ease; 
         font-family: 'Helvetica', sans-serif; 
         border-radius: 30px;
         text-transform: uppercase;
@@ -455,6 +469,33 @@ h2{
                 transform: perspective(500px) rotateY(360deg);
 
             }
+
+            .imagenProhibido {
+                height: 200px;
+                left: 20%;
+                top: 0.5%;
+                position: absolute;
+            }
+
+            .imagenPagos {
+                height: 180px;
+                top: 72%;
+                position: absolute;
+            }
+
+            .fotosSucursales {
+                width: 40%;
+                border-radius: 15%;
+                left: 44%;
+                top: 30%;
+                position: relative;
+                
+             }
+
+            
+
+            
+
 
           
 
