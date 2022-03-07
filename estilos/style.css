@@ -142,12 +142,15 @@ h2{
 }
 
     body{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
         padding-bottom: 3em;
         min-height: 100vh;
         position: relative;
         flex-direction: column;
         min-height: 100vh;
-        background-image: url("http://2.bp.blogspot.com/-6zSzvMvvPDY/UyitboZaiVI/AAAAAAAAFLE/KXWocb0YVro/s1600/fondo%25252Bminimalista%25252Bnegro,%25252Bminimalist%25252Bbackground,%25252Bfondo%25252Bsitio%25252Bweb%25252Bminimalista,%25252Bfondo%25252Bnegro%25252Bweb.jpg")
+        background-image: url("https://img.freepik.com/foto-gratis/mesa-madera-vistas-al-fondo-borroso-botella-barra-bebidas_43029-829.jpg?size=626&ext=jpg")
         
     }
     
@@ -481,6 +484,14 @@ h2{
                 height: 180px;
                 top: 72%;
                 position: absolute;
+            }
+
+            .mapita {
+                position: absolute;
+                top: 30%;
+                left: 64%;
+               
+                
             }
 
             

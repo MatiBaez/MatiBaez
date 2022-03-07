@@ -45,17 +45,23 @@
         
         <textarea placeholder="Dejanos tus comentarios" name="comentarios" id="" cols="50" rows="20"></textarea> <br>
 
-        <p>Tipo de bebidas que mas consumes:</p>
-        <div class="tipoBebida">Vinos</div>
-        <input type="radio" name="Vino" value="Vino" />
-        <div class="tipoBebida">Cervezas</div>
-        <input type="radio" name="Cervezas" value="Cervezas" /> <br>
-        <div class="tipoBebida">Aperitivos</div>
-        <input type="radio" name="Aperitivos" value="Aperitivos" /> <br>
-        <div class="tipoBebida">Refrescos</div>
-        <input type="radio" name="Refrescos" value="Refrescos" /> <br>
-        <div class="tipoBebida">Otros</div>
-        <input type="radio" name="Otros" value="Otros" /> <br>
+        <div class="form-row align-items-center">
+            <div class="col-auto my-1">
+              <label class="mr-sm-2" for="inlineFormCustomSelect">Favoritos</label>
+              <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                <option selected></option>
+                <option value="1">Cervezas</option>
+                <option value="2">Vinos</option>
+                <option value="3">Aperitivos</option>
+                <option value="3">Gaseosas</option>
+                <option value="3">Otro</option>
+                
+              </select>
+            </div>
+            
+            </div>
+            
+          
 
         <input type="Submit" value="Enviar">
         <input type="reset">
