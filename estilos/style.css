@@ -478,6 +478,7 @@ h2{
                 left: 20%;
                 top: 0.5%;
                 position: absolute;
+                
             }
 
             .imagenPagos {
@@ -495,36 +496,49 @@ h2{
             }
 
             
+@media (max-width: 767px) {
+    body {
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: column;
+    }
+    img {
+        height: 190px;
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+    }
+    p {
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        text-transform: lowercase;
+        font-size: 1rem;
+      
+        }
+        img {
+            display: grid;
+            grid-template-columns: auto;
+            
+        }
+}
+
+    
+
 
             
 
 
           
 
-@media (min-width: 600px){
-    body {
-        background-color: rgb(255, 255, 255);
-        text-transform: lowercase;
-        font-size: 30px;
-    }
-}
 
-@media (min-width: 1024px) and (max-width: 710px) {
-    body {
-        text-transform: lowercase;
-        font-size: 30px;
-
-    }
-}
-
-@media (min-width: 1200px) {
-    body {
-        background-color: rgb(255, 255, 255);
-        text-transform: uppercase;
-        font-size: 15px;
-    }
-
-}
 
 
 
