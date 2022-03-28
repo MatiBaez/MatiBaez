@@ -63,7 +63,7 @@
     font-family: 'Montserrat', sans-serif;
   }
 
-.imagenesProductos {
+  .imagenesesProductos {
     display: flex;
     align-items: center;
     width: 600px;
@@ -293,14 +293,14 @@ h2{
             height: auto;
         }
 
-        .imagenJagger {
+        .imagenesJagger {
             position: absolute;
             top: 12%;
             left: 5%;
             border-radius: 3%;
         }
 
-        .imagenCabernet {
+        .imagenesCabernet {
             position: relative;
             top: 45%;
             left: 40%;
@@ -308,7 +308,7 @@ h2{
             
         }
 
-        .imagenBirra {
+        .imagenesBirra {
             position: relative;
             height: 700px;
             left: 0%;
@@ -474,7 +474,7 @@ h2{
 
             }
 
-            .imagenProhibido {
+            .imagenesProhibido {
                 height: 200px;
                 left: 20%;
                 top: 0.5%;
@@ -482,7 +482,7 @@ h2{
                 
             }
 
-            .imagenPagos {
+            .imagenesPagos {
                 height: 180px;
                 top: 72%;
                 position: absolute;
@@ -534,9 +534,10 @@ h2{
         height: 10px;
         vertical-align: center;
     }
-    .imagenProhibido {
+    .imagenesProhibido {
         display: flex;
         display: none;
+        height: 10px;
         
     }
 }
